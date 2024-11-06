@@ -1,0 +1,355 @@
+/* Importing the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying the font family to all text */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+main{
+    width: 100vw;
+    padding-top: 80px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10; /* Ensures it stays on top of other elements */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+}
+li:hover{
+    cursor: pointer;
+}
+.search{
+    background-color:#181818;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.discount{
+    width: 100%;
+    height: 100px;
+    background-color: #414584;
+    padding: 20px 0px;
+}
+.content{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    margin: auto;
+}
+a{
+    color: white;
+}
+.arrival {
+    width: 100%;
+    height: 450px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/32f16efd520940f1b163cb907f2a58f4fe051313?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 20px; 
+}
+
+.text {
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 20px;
+    color: white; 
+    padding-left: 50px;
+}
+
+.button{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.virat{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.price{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/f5eaefeafb5a5ff5ca2d77b22f6b7653aed842da?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.PALERMO{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.car {
+    width: 55%;
+    height: 700px; /* This ensures the image fits the container */
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/45adb00438bd290f62f1146b0792436e60087fe4?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video{
+width: 45%;
+}
+.rewrite{
+    width: 100%;
+    min-height: 500px;
+    background-color: #DAD2CC;
+    margin-top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.overlap{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+.PALERMO-button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;  
+}
+.shop{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shop-image{
+    width: 95%;
+    display: flex;
+    height: 600px;
+    gap: 10px;
+    margin: auto;
+}
+.s-img{
+    width: 25%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    max-width: 100%;
+    height: 400px; 
+}
+.black-button{
+   background-color:#181818;
+   padding: 10px;
+   color: white;
+   border: none;
+}
+.fenty{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/c7e563093ce8968cf56a0dbabc3aed8e6003eec0?_a=BAMAH2fi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:5px 0px;
+}
+.rihanna{
+    position: relative;
+    top: 200px;
+    left:60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.rocky{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 60px;
+    gap: 20px;
+    color: white;
+}
+.asap{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/a2d888ff2d01d208b66a4af9fe8edfde53b1e119?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:5px 0px 50px 0px;
+}
+.shoe{
+    width: 100%; 
+    height: 400px; 
+}
+.main{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.shoe-container1{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/71ce7729f8f7da8c0cfc20e78b9839d4d8257a84?_a=BAMAH2fi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.shoe-container2{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/c3a9a7cca38afda7c4bbadf678c3afe427b810eb?_a=BAMAGSfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.shoe-container3{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/73e7d6229af3b731a2b96be73b85a7542c4e8a0f?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.shoe-container4{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/523938f36eac15a14d2e66cdb263176adf2ab6ac?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.one8{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/953b99043fc3ec28d0f78a56167e739a51d6afc8?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:5px 0px;
+}
+.shirt-container1{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/55fa220918d3bdc7d4b7d948d8630c0bba97b852?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shirt-container2{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/1a8aab4395a2f8b7fccf58ff6d1602f12b8622a6?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shirt-container3{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_626/cms/images/423ce1c3734ef6f658e01d41e2771492ebd5661e?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shirt-container4{
+    width: 23%;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/c2f5a7d0b5024fb87187dc23084a91bd7cd6ad04?_a=BAMAGSfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sport{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/21e926883273ea2f81973344ac8fdd4174716bd5?_a=BAMCkGfi0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:5px 0px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: #181818;
+    padding: 30px 0px;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+th{
+    color: white;
+    text-align: start;
+}
+td{
+    color: white;
+    text-align: start; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button{
+    cursor: pointer;
+} 
